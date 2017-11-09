@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Alchemy 1.4",
+  "name": "Alchemy 1.5",
   "description": "This extension allows the user to convert file types - digital alchemy",
-  "version": "1.4",
+  "version": "1.5",
 
   "browser_action": {
     "default_icon": "icon.png",
