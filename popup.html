@@ -6,7 +6,7 @@
  -->
 <html>
   <head>
-    <title>Getting Started Extension's Popup</title>
+    <title>Alchemy</title>
     <style type="text/css">
       body {
         margin: 10px;
@@ -34,15 +34,27 @@
   </head>
 
   <body>
-    <h1>Background Color Changer</h1>
-    <div id="container">
-      <span>Choose a color</span>
+    <h1>Alchemy</h1>
+    <div id="startingfiledropdown">
+      <span>Choose a starting file type...</span>
       <select id="dropdown">
         <option selected disabled hidden value=''></option>
-        <option value="white">White</option>
-        <option value="pink">Pink</option>
-        <option value="green">Green</option>
-        <option value="yellow">Yellow</option>
+        <option value="">Youtube Video Link</option>
+        <option value="">PDF</option>
+        <option value="">MP3</option>
+        <option value="">JPG</option>
+        <option value="">MOV</option>
+      </select>
+    </div>
+    <div id="destinationfiledropdown">
+      <span>Choose a destination file type...</span>
+      <select id="dropdown">
+        <option selected disabled hidden value=''></option>
+        <option value="">WAV</option>
+        <option value="">PDF</option>
+        <option value="">MP3</option>
+        <option value="">JPG</option>
+        <option value="">MOV</option>
       </select>
     </div>
   </body>
