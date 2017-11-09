@@ -7,14 +7,20 @@
 <html>
   <head>
     <title>Alchemy</title>
+      <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+      </script>
     <style type="text/css">
       body {
-        margin: 10px;
+        margin: 20px;
         white-space: nowrap;
       }
 
       h1 {
         font-size: 15px;
+        color: darkolivegreen;
       }
 
       #container {
@@ -22,8 +28,9 @@
         display: flex;
         justify-content: space-between;
       }
-    </style>
 
+    </style>
+    <link rel="stylesheet" href="css/jquery.fileupload.css">
     <!--
       - JavaScript and HTML must be in separate files: see our Content Security
       - Policy documentation[1] for details and explanation.
@@ -46,6 +53,7 @@
         <option value="">MOV</option>
       </select>
     </div>
+
     <div id="destinationfiledropdown">
       <span>Choose a destination file type...</span>
       <select id="dropdown">
